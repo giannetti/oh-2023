@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://giannetti.github.io/oh-2023/annotations/oh-symposium-recording-canvas-1-speaker.json",
+  "type": "AnnotationPage",
+  "label": "speaker",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "oh-symposium-recording-canvas-1-speaker-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Seth Russell, Open Research Business Development Manager, Taylor & Francis, tells us about T&F journals that have been switched to open access.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "229.0,752.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "oh-symposium-recording-canvas-1-speaker-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Nicky Agate, of HuMetrics Initiative, tells us other stuff.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "765.0,1410.0"
+        }
+      }
+    }
+  ]
+}

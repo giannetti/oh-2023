@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://giannetti.github.io/oh-2023/annotations/oh-symposium-recording-canvas-1-audience.json",
+  "type": "AnnotationPage",
+  "label": "audience",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "oh-symposium-recording-canvas-1-audience-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Q&A",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "5002.0,6301.0"
+        }
+      }
+    }
+  ]
+}
