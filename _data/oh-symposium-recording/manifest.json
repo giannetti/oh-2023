@@ -1,0 +1,40 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "OH symposium recording" ] },
+    "provider": [
+      {
+        "id": "https://www.libraries.rutgers.edu/",
+        "type": "Agent",
+        "label": { "en": [ "Rutgers University Libraries" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 7189.0,
+        "items": [
+          {
+            "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://giannetti.github.io/oh-2023/oh-symposium-recording/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://rutgers.box.com/shared/static/390g8az94pd59apuof5al8ocahrjmwzk.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 7189.0
+                },
+                "target": "https://giannetti.github.io/oh-2023/oh-symposium-recording/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
