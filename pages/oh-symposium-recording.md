@@ -1,5 +1,5 @@
 ---
-layout: item
+layout: aviary
 title: OH symposium recording
 manifest_name: oh-symposium-recording
 permalink: oh-symposium-recording
