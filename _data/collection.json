@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Open Humanities Roundtable" ] },
+    "summary": { "en": [ "Co-creating value in open humanities scholarship: where we are and where we’re heading" ] },
+    "items": [
+    ]
+}
